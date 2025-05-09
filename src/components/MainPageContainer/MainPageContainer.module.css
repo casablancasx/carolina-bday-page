@@ -1,0 +1,7 @@
+.container {
+    padding: 20px; /* Inner spacing for content */
+    width: 75%;
+    height: 100vh;
+    box-sizing: border-box; /* Ensures padding and border don't add to the width/height */
+    background-color: rgba(254, 254, 254, 0.855);
+  }
