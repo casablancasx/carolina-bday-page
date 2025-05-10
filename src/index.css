@@ -5,14 +5,14 @@ html, body, #root {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: 'Tahoma', sans-serif; /* Adiciona Tahoma como fonte principal */
+  font-family: 'Tahoma', sans-serif; 
 }
-/* 2) Use flex corretamente no body para centralizar #root (e, por cascata, .app-wrapper) */
+
 body {
   display: flex;
-  justify-content: center; /* centraliza horizontalmente o #root */
-  align-items: center;     /* centraliza verticalmente o #root */
-  
+  justify-content: center; 
+  align-items: center;     
+
   background-image: url('./assets/8519065.jpg');
   background-repeat: no-repeat;
   background-size: cover; 

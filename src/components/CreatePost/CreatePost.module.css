@@ -1,0 +1,47 @@
+.postWrapper {
+    background-color: #F0F0F0; /* Cor de fundo similar */
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.postHeader {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 0.8rem;
+}
+
+.postTextarea {
+    width: calc(100% - 20px); /* Ajustar padding */
+    min-height: 60px;
+    border: 1px solid #C0C0C0;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    resize: vertical;
+}
+
+.postActions {
+    display: flex;
+    gap: 10px;
+}
+
+.actionButton {
+    background-color: #DCDCDC;
+    border: 1px solid #B0B0B0;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border-radius: 2px;
+}
+
+.actionButton:hover {
+    background-color: #C8C8C8;
+}
+
+.cancelButton {
+    /* Estilos específicos para o botão cancelar, se necessário */
+}

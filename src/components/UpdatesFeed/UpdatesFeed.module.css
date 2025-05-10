@@ -1,0 +1,94 @@
+.feedWrapper {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.feedHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.luckyButton {
+    background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    border-radius: 2px;
+}
+
+.luckyButton:hover {
+    background-color: #E8E8E8;
+}
+
+.postsList {
+    /* Estilos para a lista de posts */
+}
+
+.postItem {
+    border-bottom: 1px dotted #D0D0D0;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.postItem:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.postAuthorInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.avatar {
+    width: 30px; /* Ajustar tamanho do avatar */
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 8px;
+    background-color: #E0E0E0; /* Placeholder se não houver imagem */
+}
+
+.postUser {
+    font-weight: bold;
+    color: #003399; /* Cor azul típica do Orkut para nomes */
+    font-size: 0.85rem;
+    margin-right: 10px;
+}
+
+.postTimestamp {
+    font-size: 0.75rem;
+    color: #777;
+}
+
+.postContent {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.postContent a {
+    color: #003399;
+    text-decoration: underline;
+}
+
+.postInteractions {
+    display: flex;
+    gap: 15px;
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.postInteractions span {
+    /* Adicionar ícones aqui se desejar */
+}

@@ -1,0 +1,24 @@
+.navWrapper {
+    background-color: #E8E8E8; /* Cor de fundo similar ao Orkut */
+    padding: 5px 10px;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: #333; /* Cor do texto similar ao Orkut */
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.navItem a:hover {
+    background-color: #D8D8D8;
+}
