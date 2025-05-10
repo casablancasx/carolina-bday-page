@@ -10,7 +10,7 @@
 
 .profileImage {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     padding: auto;
     border-bottom: none;
@@ -18,16 +18,14 @@
 }
 
 .statusProfile {
-    /* sobe o bloco vermelho para encostar no border-bottom da img */
     margin-top: -2px;
     width: 100%;
-    height: 40px;
-    background-color: #fd0404;
-    color: #00f318;
+    height: 30px;
+    background: linear-gradient(to bottom, #b8f8a7, #36fb00); /* Gradiente de um verde mais claro para #6FF74A */
+    color: #333; /* Cor do texto mais escura */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* arredonda os cantos de baixo */
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    font-weight: bold; /* Adiciona negrito para melhor leitura */
+    border-top: 1px solid #D1FFC7; /* Simula um reflexo branco na borda superior */
 }
