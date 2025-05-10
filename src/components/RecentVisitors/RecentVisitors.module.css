@@ -1,0 +1,57 @@
+.container {
+    background-color: #FFE1EE;
+    border: 1px solid #FFC1DE;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .closeIcon {
+    color: #999;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  
+  .statsInfo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .visitorsGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+  }
+  
+  .visitorItem {
+    position: relative;
+  }
+  
+  .visitorImg {
+    width: 100%;
+    height: auto;
+    border: 1px solid #DDD;
+    cursor: pointer;
+  }
+  
+  .visitorImg:hover {
+    border-color: #ED2590;
+  }

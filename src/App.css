@@ -34,3 +34,13 @@
     background-color: #f0f0f0; /* Cor de fundo para as ações do perfil */
     border-radius: 5px; /* Bordas arredondadas */
 }
+
+.friends-container {
+    display: flex;
+    flex-direction: column; /* Alinha os filhos em coluna (verticalmente) */
+    gap: 10px; /* Espaçamento entre os filhos */
+    width: 100%; /* Largura total do contêiner de amigos */
+    height: 100%;
+    background-color: white; /* Cor de fundo para o contêiner de amigos */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+}

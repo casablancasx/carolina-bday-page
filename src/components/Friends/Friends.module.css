@@ -1,0 +1,117 @@
+.container {
+    background-color: #FFE1EE;
+    border: 1px solid #FFC1DE;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+  }
+  
+  .count {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .icons {
+    margin-left: auto;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .editIcon, .closeIcon {
+    color: #999;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .searchContainer {
+    margin-bottom: 10px;
+  }
+  
+  .searchWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCC;
+    background-color: white;
+    padding: 3px;
+  }
+  
+  .searchIcon {
+    font-size: 0.8rem;
+    margin-right: 5px;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .friendsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  
+  .friendItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .friendImg {
+    width: 100%;
+    height: auto;
+    border: 1px solid #DDD;
+    cursor: pointer;
+  }
+  
+  .friendName {
+    font-size: 0.7rem;
+    margin-top: 3px;
+    text-align: center;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  
+  .onlineDot {
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: #00FF00;
+    border-radius: 50%;
+  }
+  
+  .footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #666;
+  }
+  
+  .onlineStatus {
+    padding: 3px 8px;
+    background-color: #E1F5E1;
+    border: 1px solid #C1E5C1;
+    border-radius: 10px;
+  }

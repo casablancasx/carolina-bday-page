@@ -6,6 +6,8 @@ import ProfileInfo from './components/ProfileInfo/ProfileInfo'
 import MainNavigation from './components/MainNavigation/MainNavigation'
 import CreatePost from './components/CreatePost/CreatePost'
 import UpdatesFeed from './components/UpdatesFeed/UpdatesFeed'
+import RecentVisitors from './components/RecentVisitors/RecentVisitors'
+import Friends from './components/Friends/Friends'
 import './App.css'
 
 function App() {
@@ -22,6 +24,10 @@ function App() {
               <MainNavigation />
               <CreatePost />
               <UpdatesFeed />
+          </div>
+          <div className='friends-container'>
+            <RecentVisitors />
+            <Friends />
           </div>
         </div>
       </MainPageContainer>
